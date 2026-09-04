@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>不刘名科创 | 全能技术工作室</title>
+    <meta
+      name="description"
+      content="不刘名科创工作室 —— 为全能而生，专注开源与全栈开发。"
+    />
+    <link rel="icon" type="image/png" href="/buliuming.png" />
+    <script>
+      // 在 CSS 渲染前同步设置主题，避免深色模式闪烁（FOUC）
+      ;(function () {
+        try {
+          var saved = localStorage.getItem('theme')
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+          var theme = saved || (prefersDark ? 'dark' : 'light')
+          document.documentElement.setAttribute('data-theme', theme)
+        } catch (e) {}
+        // 标记 JS 可用，用于控制淡入动画（无 JS 时内容始终可见）
+        document.documentElement.classList.add('js')
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
