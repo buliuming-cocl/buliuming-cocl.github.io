@@ -6,7 +6,7 @@ import { team } from '../data/site.js'
   <section class="page team">
     <div class="container">
       <div class="section-title">
-        <h2>我们的团队</h2>
+        <h2>我们的成员</h2>
       </div>
       <div class="card-grid team-grid">
         <div v-for="m in team" :key="m.name" class="card team-card">

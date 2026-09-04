@@ -44,7 +44,7 @@ onUnmounted(() => {
         <li><router-link to="/" @click="closeMenu">首页</router-link></li>
         <li><router-link to="/projects" @click="closeMenu">项目</router-link></li>
         <li><router-link to="/affiliates" @click="closeMenu">附属团队</router-link></li>
-        <li><router-link to="/team" @click="closeMenu">团队</router-link></li>
+        <li><router-link to="/team" @click="closeMenu">成员</router-link></li>
       </ul>
       <div class="nav-actions">
         <button class="theme-toggle" @click="toggleTheme" aria-label="切换深色模式">
@@ -78,7 +78,7 @@ onUnmounted(() => {
         <router-link to="/">首页</router-link>
         <router-link to="/projects">项目</router-link>
         <router-link to="/affiliates">附属团队</router-link>
-        <router-link to="/team">团队</router-link>
+        <router-link to="/team">成员</router-link>
       </div>
     </div>
     <div class="copyright">

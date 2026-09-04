@@ -15,7 +15,7 @@ useFadeIn()
       <p class="hero-desc">{{ site.description }}</p>
       <div class="hero-buttons">
         <router-link to="/projects" class="btn">查看项目</router-link>
-        <router-link to="/team" class="btn btn-outline">认识团队</router-link>
+        <router-link to="/team" class="btn btn-outline">认识成员</router-link>
       </div>
     </div>
   </section>
