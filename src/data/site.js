@@ -84,24 +84,17 @@ export const projects = [
 export const affiliates = [
   {
     name: 'OpenWe Labs',
-    tagline: '开源围棋项目',
-    desc: '现代、简洁的开源桌面围棋应用，本地规则引擎 + AI 集成，支持人机对战与多语言。',
-    github: 'https://github.com/openwelabs',
-    site: '',
-    projects: [
-      { name: 'weqi', desc: 'AI 围棋（C++）', url: 'https://github.com/openwelabs/weqi' },
-      { name: 'weqi-web', desc: '围棋 Web 版', url: 'https://github.com/openwelabs/weqi-web' },
-      { name: 'weqi-android', desc: '围棋 Android 版', url: 'https://github.com/openwelabs/weqi-android' },
-    ],
+    tagline: '旗下工作室 · 开源 AI 应用',
+    desc: '我们旗下的技术工作室，专注开发开源 AI 应用，持续探索人工智能与全栈的结合。',
+    links: [{ label: 'GitHub', url: 'https://github.com/openwelabs' }],
   },
   {
     name: '豆芽人联盟 Yay Alliance',
     tagline: '漫画向 ACG IP',
     desc: '以漫画为核心的二次元 IP 与活力团队，Wiki 记录联盟世界观与设定。',
-    github: 'https://github.com/kenaut/yaywiki',
-    site: 'https://kenaut.github.io/yaywiki/',
-    projects: [
-      { name: 'yaywiki', desc: '豆芽人联盟 Wiki', url: 'https://github.com/kenaut/yaywiki' },
+    links: [
+      { label: '官网', url: 'https://kenaut.github.io/yayacs/' },
+      { label: 'Wiki', url: 'https://kenaut.github.io/yaywiki/' },
     ],
   },
 ]

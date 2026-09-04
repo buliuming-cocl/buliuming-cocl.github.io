@@ -17,23 +17,18 @@ import { affiliates } from '../data/site.js'
               <span class="affiliate-tagline">{{ a.tagline }}</span>
             </div>
             <div class="affiliate-links">
-              <a :href="a.github" target="_blank" rel="noopener">GitHub</a>
-              <a v-if="a.site" :href="a.site" target="_blank" rel="noopener">官网</a>
+              <a
+                v-for="l in a.links"
+                :key="l.label"
+                :href="l.url"
+                target="_blank"
+                rel="noopener"
+              >
+                {{ l.label }}
+              </a>
             </div>
           </div>
           <p class="affiliate-desc">{{ a.desc }}</p>
-          <div class="affiliate-projects">
-            <a
-              v-for="p in a.projects"
-              :key="p.name"
-              :href="p.url"
-              target="_blank"
-              rel="noopener"
-              class="chip"
-            >
-              {{ p.name }} · {{ p.desc }}
-            </a>
-          </div>
         </div>
       </div>
     </div>
