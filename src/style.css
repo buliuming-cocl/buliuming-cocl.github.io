@@ -90,6 +90,12 @@ section {
   padding: 90px 0;
 }
 
+/* 独立子页面：顶部留出固定导航栏高度 */
+.page {
+  padding-top: 150px;
+  min-height: 70vh;
+}
+
 /* ---------- 按钮 ---------- */
 .btn {
   display: inline-flex;
