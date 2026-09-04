@@ -6,7 +6,7 @@ import { affiliates } from '../data/site.js'
   <section class="page affiliates">
     <div class="container">
       <div class="section-title">
-        <h2>附属团队</h2>
+        <h2>旗下团队</h2>
         <p>与我们紧密协作的伙伴团队</p>
       </div>
       <div class="affiliate-list">

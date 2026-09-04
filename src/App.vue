@@ -43,7 +43,7 @@ onUnmounted(() => {
       <ul id="nav-menu" class="nav-links" :class="{ active: menuOpen }">
         <li><router-link to="/" @click="closeMenu">首页</router-link></li>
         <li><router-link to="/projects" @click="closeMenu">项目</router-link></li>
-        <li><router-link to="/affiliates" @click="closeMenu">附属团队</router-link></li>
+        <li><router-link to="/affiliates" @click="closeMenu">旗下团队</router-link></li>
         <li><router-link to="/team" @click="closeMenu">成员</router-link></li>
       </ul>
       <div class="nav-actions">
@@ -77,7 +77,7 @@ onUnmounted(() => {
       <div class="footer-links">
         <router-link to="/">首页</router-link>
         <router-link to="/projects">项目</router-link>
-        <router-link to="/affiliates">附属团队</router-link>
+        <router-link to="/affiliates">旗下团队</router-link>
         <router-link to="/team">成员</router-link>
       </div>
     </div>

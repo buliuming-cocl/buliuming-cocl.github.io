@@ -80,7 +80,7 @@ export const projects = [
   },
 ]
 
-// 附属团队
+// 旗下团队
 export const affiliates = [
   {
     name: 'OpenWe Labs',
