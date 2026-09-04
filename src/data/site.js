@@ -86,7 +86,10 @@ export const affiliates = [
     name: 'OpenWe Labs',
     tagline: '旗下工作室 · 开源 AI 应用',
     desc: '我们旗下的技术工作室，专注开发开源 AI 应用，持续探索人工智能与全栈的结合。',
-    links: [{ label: 'GitHub', url: 'https://github.com/openwelabs' }],
+    links: [
+      { label: '官网', url: 'https://openwelabs.github.io/' },
+      { label: 'GitHub', url: 'https://github.com/openwelabs' },
+    ],
   },
   {
     name: '豆芽人联盟 Yay Alliance',
